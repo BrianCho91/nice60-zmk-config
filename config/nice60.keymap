@@ -8,8 +8,8 @@
 
 #define WINDOWS 0
 #define MAC 1
-#define FUNCTION 2
-#define BLUETOOTH 3
+#define BLUETOOTH 2
+#define FUNCTION 3
 
 / {
     behaviors {

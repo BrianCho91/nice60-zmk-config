@@ -3,11 +3,13 @@
 
 #include <errno.h>
 #include <stdint.h>
+#include <string.h>
 #include <zephyr/device.h>
 #include <zephyr/init.h>
 #include <zephyr/kernel.h>
 #include <zephyr/settings/settings.h>
 #include <zephyr/logging/log.h>
+#include <drivers/behavior.h>
 #include <zmk/behavior.h>
 #include <zmk/keymap.h>
 
