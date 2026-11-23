@@ -1,3 +1,0 @@
-description: Persistently toggle between Windows and Mac keymap layers
-compatible: "nice60,behavior-persistent-os-toggle"
-include: zero_param.yaml

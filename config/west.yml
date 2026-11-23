@@ -2,18 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: nice60-user
-      url-base: https://github.com/BrianCho91
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    # Self-hosted Zephyr module. Requires these changes to be pushed to main.
-    - name: nice60-zmk-config
-      remote: nice60-user
-      repo-path: nice60-zmk-config
-      revision: main
-      path: modules/nice60-os-mode
   self:
     path: config

@@ -1,7 +1,0 @@
-
-name: nice60-os-mode
-
-build:
-  cmake: .
-  settings:
-    dts_root: .
