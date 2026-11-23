@@ -1,3 +1,7 @@
+name: nice60-os-mode
+
 build:
   cmake: .
-  dts_root: .
+  kconfig: Kconfig
+
+dts_root: .
