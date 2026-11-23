@@ -82,4 +82,4 @@ static int os_mode_init(void) {
     k_work_schedule(&restore_work, K_MSEC(750));
     return 0;
 }
-SYS_INIT(os_mode_init, APPLICATION, CONFIG_APPLICATION_INIT_PRIORITY + 1);
+SYS_INIT(os_mode_init, APPLICATION, CONFIG_APPLICATION_INIT_PRIORITY);
