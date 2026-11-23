@@ -1,0 +1,3 @@
+build:
+  cmake: .
+  dts_root: .
